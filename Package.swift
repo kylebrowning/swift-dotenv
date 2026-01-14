@@ -5,17 +5,17 @@ let package = Package(
     name: "dotenv",
     products: [
         .library(
-            name: "dotenv",
-            targets: ["dotenv"]
+            name: "Dotenv",
+            targets: ["Dotenv"]
         ),
     ],
     targets: [
         .target(
-            name: "dotenv"
+            name: "Dotenv"
         ),
         .testTarget(
-            name: "dotenvTests",
-            dependencies: ["dotenv"]
+            name: "DotenvTests",
+            dependencies: ["Dotenv"]
         ),
     ]
 )
