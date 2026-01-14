@@ -1,6 +1,6 @@
 import Testing
 import Foundation
-@testable import dotenv
+@testable import SwiftDotEnv
 
 // MARK: - Basic Parsing Tests
 

@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "dotenv",
+    name: "swift-dotenv",
     products: [
         .library(
-            name: "Dotenv",
-            targets: ["Dotenv"]
+            name: "SwiftDotEnv",
+            targets: ["SwiftDotEnv"]
         ),
     ],
     targets: [
         .target(
-            name: "Dotenv"
+            name: "SwiftDotEnv"
         ),
         .testTarget(
-            name: "DotenvTests",
-            dependencies: ["Dotenv"]
+            name: "SwiftDotEnvTests",
+            dependencies: ["SwiftDotEnv"]
         ),
     ]
 )
